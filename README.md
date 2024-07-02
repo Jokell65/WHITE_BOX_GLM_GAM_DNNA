@@ -1,2 +1,2 @@
-# WHITE_BOX_GLM_GAM_DNNA
- Explain white box for two methods GLM - GAM
+# GAM-WhiteBoxModel-Analysis
+ GAM/GA^2M model comparison 
