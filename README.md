@@ -61,7 +61,7 @@ it may need a specification of version
 ## 1. Clone the repository: ## 
 
 ```bash
-   git clone https://github.com/lucasld/neural_network_analysis.git
+git clone https://github.com/Jokell65/WHITE_BOX_GLM_GAM_DNNA.git
 ```
 
 ## 2. Navigate to the project directory: ## 
