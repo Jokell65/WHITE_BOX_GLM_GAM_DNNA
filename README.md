@@ -69,6 +69,11 @@ git clone https://github.com/Jokell65/WHITE_BOX_GLM_GAM_DNNA.git
  ```bash
  cd WHITE_BOX_GLM_GAM_DNNA
  ```
+## while there check out the file listing using ##
+
+```bash
+ls
+```
 
 ## 3. Install the required packages (possibly activate/create conda env): ##
 
