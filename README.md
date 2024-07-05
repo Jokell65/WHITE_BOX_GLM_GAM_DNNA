@@ -66,17 +66,17 @@ git clone https://github.com/Jokell65/WHITE_BOX_GLM_GAM_DNNA.git
 
 ## 2. Navigate to the project directory: ## 
 
-   ```bash
-   cd neural_network_analysis
-   ```
+ ```bash
+ cd WHITE_BOX_GLM_GAM_DNNA
+ ```
 
 ## 3. Install the required packages (possibly activate/create conda env): ##
 
  **Run the following command to create a virtual environment** 
     
-        ```bash
-        python3 -m venv myenv
-        ```
+ ```bash
+ python3 -m venv myenv
+ ```
 **Activate the virtual environment:**
         - **Windows**:
             ```
