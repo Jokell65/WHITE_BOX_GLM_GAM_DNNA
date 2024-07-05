@@ -93,17 +93,6 @@ pip install -r requirements.txt
 
 ## 4. If creating the env from the environment file did not work for you,you can install all dependencies via: ##
 
-**Run one of the 3 commands for cpu, cuda or tpu support respectively:**
-```bash
-%pip install -U "jax[cpu]"
-```
-```bash
-%pip install -U "jax[cuda12_pip]" -f https://storage.googleapis.com/jax- releases/jax_cuda_releases.html
-```
-```bash
-%pip install -U "jax[tpu]" -f https://storage.googleapis.com/jax-releases/libtpu_releases.html
-```
-    
 **Run the rest:**
 ```bash
 %pip install optax==0.1.7
@@ -125,14 +114,5 @@ pip install -r requirements.txt
 ```bash
 %pip install matplotlib
 ```
-## 5. To run all experiments run: ##
-```bash
-%sh main.sh
-```
-**To run a single experiment run:**
-```bash
-%python main.py cifar10|wine_quality xavier_uniform|glorot_uniform|glorot_normal tanh|relu|sigmoid
-```
-   
-
-
+## 5. To run all experiments: ##
+we suggest that you use juypter notebook and install all dependencies before running gam_1.ipynb
