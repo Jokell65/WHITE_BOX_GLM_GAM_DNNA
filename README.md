@@ -6,6 +6,9 @@
 # myenv.zip
 Here you can find all the models weights and all other files required to run the gam_1.ipynb code compressed in a zip. Each of the subfolders contains untrained weights, overtrained weights and the best performing weights from the training run. You can also find a simple plot showing the training loss and the validation loss.
 
+**NOTE** For this experiment ,we will only adopt from the Wine Quality Dataset and specifically from 
+/Volumes/Macintosh HD - Daten/GAM/model_checkpoints/downloads/arch.ics.uci.edu_ml_mach-lear-data_wine-qu5LgVXAwKUbZ9-7Dzn24RQzWFFF_fKhBDB_Ym1MhkyA0.csv
+
 **Model Configurations:**
 1. **CIFAR-10 Dataset**:
     - **Xavier Uniform Initialization**:
