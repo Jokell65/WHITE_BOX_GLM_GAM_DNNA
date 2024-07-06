@@ -69,7 +69,7 @@ git clone https://github.com/Jokell65/WHITE_BOX_GLM_GAM_DNNA.git
  ```bash
  cd WHITE_BOX_GLM_GAM_DNNA
  ```
-## while there check out the file listing using ##
+## while there, check out the file listing using. ##
 
 ```bash
 ls
@@ -98,23 +98,37 @@ pip install -r requirements.txt
 
 ## 4. If creating the env from the environment file did not work for you,you can install all dependencies via: ##
 
-**Run the rest:**
+**These maybe apply to mostly GAM, however run dependencies:**
 ```bash
-%pip install optax==0.1.7
+%pip install numpy
 ```
 ```bash
-%pip install scipy==1.11.4
+%pip install seaborne
+```
+```bash
+%pip install pandas
+```
+```bash
+%pip onstall matplotlib
+```
+
+**These maybe apply to mostly GA^2M, however run dependencies:**
+```bash
+%pip install interpret
+```
+```bash
+%pip install dash==2.0.0 flask==2.0.2 werkzeug==2.0.2
 ```
     
 ```bash
-%pip install -U "flax[all]"
+%pip install pandas scikit-learn interpret dash flask werkzeug
 ```
     
 ```bash
-%pip install tensorflow_datasets
+%pip freeze | grep -E 'dash|flask|werkzeug'
 ```
 ```bash
-%pip install tensorflow
+%pip install pandas scikit-learn interpret dash flask werkzeug
 ```
 ```bash
 %pip install matplotlib
